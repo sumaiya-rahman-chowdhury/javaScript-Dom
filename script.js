@@ -9,6 +9,9 @@ console.log(someLi)
 for(const li of someLi){
     console.log(li.innerText)
 }
+// 
+// 
+// 
 const attr = document.getElementById('places-title') ;
 
 console.log(attr.getAttribute('id') )
