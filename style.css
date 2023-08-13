@@ -6,3 +6,50 @@ body{
 li{
     list-style: none;
 }
+.grp-of-btn{
+    display: flex;
+    flex-direction: column;
+    /* background-color: cornflowerblue; */
+    /* justify-content: center; */
+   row-gap: 30px;
+   margin-bottom: 100px;
+
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    border: none;
+    background-color: #03045e;
+    padding: 10px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+button:hover{
+    background-color: #caf0f8;
+}
+#handler-status{
+    color: white;
+    word-wrap: break-word;
+}
+input{
+    padding: 10px 18px;
+    border-radius: 20px;
+    
+    outline: none;
+    border: 1px solid #03045e;
+}
+.update-btn{
+    width: auto;
+}
+#comment-added{
+    color: black;
+}
