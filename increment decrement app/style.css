@@ -1,0 +1,19 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+   
+}
+button{
+    padding: 15px 20px;
+    background-color: khaki;
+    border: none;
+   
+}
+h1{
+    font-size: 150px;
+    text-align: center;
+}
